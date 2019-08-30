@@ -51,7 +51,7 @@ const App = () => {
           </Switch>
         </main>
         <footer className='footer'>
-          <div>React Application</div>
+          <div>&copy; KybDev 2019</div>
         </footer>
       </React.Fragment>
     </BrowserRouter>
