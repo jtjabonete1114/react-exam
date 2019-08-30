@@ -30,11 +30,11 @@
 }
 
 .visit__item h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .visit__item h2 {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .visit__item h3 {
@@ -71,10 +71,43 @@
 }
 
 .visit__filter .form-controls{
+  margin-top:1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #eee;
+  margin-bottom: 0.5rem;
+}
+
+.sort_option{
   display: flex;
   align-items: center;
-  margin-top: 1.5rem;
-  
+  flex-direction: column;
+  margin-left: .5rem;
+}
+
+.sort_option span{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.is-active{
+  color: #01d1d1;
+}
+
+.not-active{
+  color: #555;
+}
+
+
+
+.filter__option{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
 }
 
 .filter_select{
@@ -85,4 +118,3 @@
   padding: 5px;
   background: #fff;
 }
-

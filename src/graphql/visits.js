@@ -1,8 +1,20 @@
 import { gql } from 'apollo-boost';
 
 // TEST QUERY
-const visitorsV2 = gql`query ($pageNo: Int!, $size:Int!, $startDate:  String!,  $filter: String!){
-  visitors(pageNo: $pageNo, size: $size, startDate: $startDate,  filter: $filter){
+const visitorsV2 = gql`query (
+  $pageNo: Int!, 
+  $size:Int!, 
+  $startDate:String!,  
+  $filter:String!, 
+  $sortColumn: String!,  
+  $sortBy: String! ){
+  visitors(
+    pageNo: $pageNo, 
+    size: $size, 
+    startDate: $startDate, 
+    filter: $filter , 
+    sortColumn: $sortColumn, 
+    sortBy: $sortBy){
     visits {
       _id
       ipAddress
@@ -15,8 +27,20 @@ const visitorsV2 = gql`query ($pageNo: Int!, $size:Int!, $startDate:  String!,  
 }`;
 
 // TEST MUTATION
-const visitors = gql`mutation ($pageNo: Int!, $size:Int!, $startDate:  String!,  $filter: String!){
-  visitorsV2(pageNo: $pageNo, size: $size, startDate: $startDate,  filter: $filter){
+const visitors = gql`mutation (
+  $pageNo: Int!, 
+  $size:Int!, 
+  $startDate:String!,  
+  $filter:String!, 
+  $sortColumn: String!,  
+  $sortBy: String! ){
+  visitorsV2(
+    pageNo: $pageNo, 
+    size: $size, 
+    startDate: $startDate, 
+    filter: $filter , 
+    sortColumn: $sortColumn, 
+    sortBy: $sortBy){
     visits {
       _id
       ipAddress

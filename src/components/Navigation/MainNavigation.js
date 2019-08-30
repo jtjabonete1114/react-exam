@@ -18,18 +18,24 @@ const MainNavigation = props => {
 
         <div className={style.mainNavigation__items}>
           <ul>
-
             <li>
               <NavLink activeStyle={activeStyle} to='/'>
-                <i className="zmdi zmdi-chart zmdi-hc-lg"></i>  Dashboard
+                <i className='zmdi zmdi-chart zmdi-hc-lg'></i> Dashboard
               </NavLink>
             </li>
 
             <li>
               <NavLink activeStyle={activeStyle} to='/visitors'>
-                <i className="zmdi zmdi-accounts-list zmdi-hc-lg"></i>  Visitor
+                <i className='zmdi zmdi-accounts-list zmdi-hc-lg'></i> Visitor
               </NavLink>
             </li>
+
+            {/* THIS SECTION IS FOR TESTING PURPOSES ONLY */}
+            {props.displayTestNav ? (
+              <li>
+                <NavLink to='/logout'>Logout</NavLink>
+              </li>
+            ) : null}
           </ul>
         </div>
       </header>
