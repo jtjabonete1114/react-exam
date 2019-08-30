@@ -1,18 +1,27 @@
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-
-
-#### Exam API
+## React Exam
+Used exam API repository:<br> 
 [https://github.com/kybDev/react-exam-api](https://github.com/kybDev/react-exam-api)
+
+Install dependecies
+```
+ $ npm install
+```
+NOTE:     
+[] Before starting the app make sure to change the apollo client uri to your runnig API endpoint. <br> 
+
+To start project:
+```
+ $ npm start
+```
+
+
+NOTE:
+[] Unit testing still inprogress hindi ko pa kasi gamay :(
+
+Run Test:
+```
+ $ npm test
+```
+
 
