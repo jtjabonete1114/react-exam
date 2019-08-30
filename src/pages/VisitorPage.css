@@ -46,7 +46,6 @@
   padding: 0;
   list-style: none;
   display: flex;
-  margin-bottom: 150px;
 }
 .pagination li{
   width: 30px;
