@@ -41,12 +41,13 @@
         width: 90%;
         margin: 0.5em 0;
         padding: .5rem 1rem;
-        background: #eff9f9;
+        background: #80f5f5;
         border-radius: 5px;
         a {
          
           text-decoration: none;
           color: #000;
+          font-size: 14px;
           &:hover,
           &:active,
           .active {
@@ -56,7 +57,7 @@
 
         i {
           margin-right: 1rem;
-          color: #555
+          color: #861262;
         }
        
 
@@ -73,5 +74,17 @@
         }
       }
     }
+  }
+}
+
+.nav__repo{
+  // background: #000;
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  h4{
+    margin: 0;
+    margin-left: .5rem;
+    color: #fff;
   }
 }

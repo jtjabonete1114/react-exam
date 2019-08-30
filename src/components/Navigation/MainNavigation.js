@@ -38,6 +38,30 @@ const MainNavigation = props => {
             ) : null}
           </ul>
         </div>
+
+
+
+        <div className={style.nav__repo}>
+         
+          <div className={style.mainNavigation__items}>
+            <h4>Repositories: </h4>
+            <ul>
+              <li>
+                <a href="https://github.com/kybDev/react-exam"  target={`_blank`}>
+                   <i className='zmdi zmdi-github-alt zmdi-hc-lg'></i> react-exam
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/kybDev/react-exam-api"  target={`_blank`}>
+                   <i className='zmdi zmdi-github-alt zmdi-hc-lg'></i> react-exam-api
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
       </header>
     </React.Fragment>
   );
