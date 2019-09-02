@@ -15,11 +15,13 @@ To start project:
  $ npm start
 ```
 
+
+NOTE:
+[] Unit testing still inprogress hindi ko pa kasi gamay :(
+
 Run Test:
 ```
  $ npm test
 ```
 
 
-OTHER NOTE:
-Unit testing still inprogress hindi ko pa kasi gamay :(
