@@ -19,6 +19,3 @@ Run Test:
 ```
  $ npm test
 ```
-
-
-
