@@ -6,7 +6,7 @@ Install dependecies
  $ npm install
 ```
 
-NOTE:<br>  
+NOTE:     
 Before staring the app make sure to change the apollo client uri to your runnig API endpoint. <br> 
 Exam API:<br> 
 [https://github.com/kybDev/react-exam-api](https://github.com/kybDev/react-exam-api)
