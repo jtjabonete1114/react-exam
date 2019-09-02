@@ -6,7 +6,8 @@ Install dependecies
  $ npm install
 ```
 
-NOTE: Make sure to change apollo client to your runnig API endpoint. <br>
+NOTE: Make sure to change apollo client to your runnig API endpoint. 
+
 To start project
 ```
  $ npm start
