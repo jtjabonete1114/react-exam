@@ -19,3 +19,7 @@ Run Test:
 ```
  $ npm test
 ```
+
+
+OTHER NOTE:
+Unit testing still inprogress hindi ko pa kasi gamay :(
