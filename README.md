@@ -1,6 +1,6 @@
 
 ## React Exam
-Exam API:<br> 
+Used exam API repository:<br> 
 [https://github.com/kybDev/react-exam-api](https://github.com/kybDev/react-exam-api)
 
 Install dependecies
